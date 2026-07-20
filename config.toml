@@ -1,0 +1,55 @@
+# Card key holder configuration.
+# All dimensions in mm.
+# Keys: define [key1] (required); [key2] and [key3] are optional.
+#       Card thickness = max(key thickness) + layer.thickness * cover_layers * 2
+
+[layer]
+thickness = 0.1
+cover_layers = 2
+
+[card]
+length   = 86.0   # X
+width    = 54.0   # Y
+fillet   = 3.0    # vertical edge fillet
+chamfer  = 0.4    # top/bottom face chamfer
+margin_x = 2.0    # fixed margin at both ends of X axis
+finger_slot_dia = 18.0  # diameter of the cylindrical finger-pull slot per key
+
+[key1]
+thickness    = 2.0
+head_w       = 27.0
+head_l       = 22.0
+skirt_w      = 15.0
+skirt_l      = 27.0
+body_w       = 10.0
+body_l       = 53.0
+head_fillet  = 2.0
+skirt_fillet = 1.0
+body_fillet  = 2.0
+chamfer      = 0.2
+
+[key2]
+thickness    = 2.0
+head_w       = 22.0
+head_l       = 22.0
+skirt_w      = 15.0
+skirt_l      = 27.0
+body_w       = 10.0
+body_l       = 53.0
+head_fillet  = 2.0
+skirt_fillet = 1.0
+body_fillet  = 2.0
+chamfer      = 0.2
+
+[key3]
+thickness    = 2.0
+head_w       = 20.0
+head_l       = 22.0
+skirt_w      = 15.0
+skirt_l      = 27.0
+body_w       = 10.0
+body_l       = 53.0
+head_fillet  = 2.0
+skirt_fillet = 1.0
+body_fillet  = 2.0
+chamfer      = 0.2
