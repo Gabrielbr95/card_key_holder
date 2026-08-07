@@ -29,7 +29,7 @@ body_fillet  = 2.0
 chamfer      = 0.2
 
 [key2]
-thickness    = 2.0
+thickness    = 1.5
 head_w       = 22.0
 head_l       = 22.0
 skirt_w      = 15.0
@@ -42,7 +42,7 @@ body_fillet  = 2.0
 chamfer      = 0.2
 
 [key3]
-thickness    = 2.0
+thickness    = 1.7
 head_w       = 20.0
 head_l       = 22.0
 skirt_w      = 15.0
